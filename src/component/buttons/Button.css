@@ -1,0 +1,35 @@
+.buttonBox {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 0.4rem;
+}
+.button{
+    background: #e9f0f4;
+    height: 3.5rem;
+    padding: 10px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    color: #242424;
+    border: 1px solid #40718d;
+    font-size: 1.5rem;
+}
+.textbox{
+    height: 7rem;
+    width: 95%;
+    background-color: beige;
+    border-radius: 0.4cm;
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    font-size: 40px;
+    font-weight: 400;
+}
+.div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
